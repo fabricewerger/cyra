@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@studio-freight/lenis": "^1.0.27",
     "@tailwindcss/forms": "^0.5.6",
     "@types/node": "20.8.9",
     "@types/qs": "^6.9.9",
