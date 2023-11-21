@@ -10,13 +10,13 @@ const inter = Inter({ subsets: ['latin'] })
 
 const locales = ['en', 'nl']
 
-interface RootProps {
+export default function LocaleLayout({
+  children,
+  params: { locale },
+}: {
   children: ReactNode
-  locale?: string
-}
-
-export default function RootLayout({ children, locale = 'en' }: RootProps) {
-  // Validate that the incoming `locale` parameter is valid
+  params: any
+}) {
   if (!locales.includes(locale as string)) notFound()
 
   useEffect(() => {
