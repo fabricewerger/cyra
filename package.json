@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
     "@studio-freight/lenis": "^1.0.27",
+    "classnames": "^2.3.2",
     "next": "14.0.3",
     "next-intl": "^3.1.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "typescript": "^5",
